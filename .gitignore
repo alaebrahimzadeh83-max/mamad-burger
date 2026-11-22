@@ -1,0 +1,14 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+backend/config.php
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
